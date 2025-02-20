@@ -34,7 +34,7 @@ Antes de iniciar, garanta que você possui:
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-usuario/taxa-de-conversao.git
+   git clone git@github.com:sergio-aliceral/taxa-de-conversao.git
    cd taxa-de-conversao
    ```
 2. Compile e execute a aplicação:
