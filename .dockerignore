@@ -1,0 +1,8 @@
+*.jar
+*.class
+*.log
+.dockerignore
+.git
+.idea
+.vscode
+node_modules/

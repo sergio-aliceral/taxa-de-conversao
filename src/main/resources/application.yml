@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: taxa-de-conversao
+
+server:
+  port: 8080
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+
+provider: ${PROVIDER:EXCHANGE_RATE_API}
+
+exchangerate:
+  url: ${EXCHANGERATE_URL:https://v6.exchangerate-api.com/v6/pair/}
+  token: ${EXCHANGERATE_TOKEN:d53e66db35514cd188c3c557}
